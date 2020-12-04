@@ -14,7 +14,7 @@ class Signup extends Component {
                         <p>Please input your credentials.</p>
                     </div>
                     <form>
-                        <div className="row my-3 justify-content-center">
+                        <div className="row justify-content-center">
                             <LeftFormSignup />
                             <RightFormSigup />
                         </div>
