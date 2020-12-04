@@ -9,7 +9,7 @@ function App() {
   return (
     <Router>
       <Route
-      path="/"
+      path="/Elite-IAMS"
       render={props => (
         <Boot />
       )} />
