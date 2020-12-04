@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Elite-IAMS/static/css/main.39867433.chunk.css",
-    "main.js": "/Elite-IAMS/static/js/main.ed0fd01c.chunk.js",
-    "main.js.map": "/Elite-IAMS/static/js/main.ed0fd01c.chunk.js.map",
+    "main.css": "/Elite-IAMS/static/css/main.42a88926.chunk.css",
+    "main.js": "/Elite-IAMS/static/js/main.7a5b4b6b.chunk.js",
+    "main.js.map": "/Elite-IAMS/static/js/main.7a5b4b6b.chunk.js.map",
     "runtime-main.js": "/Elite-IAMS/static/js/runtime-main.13889337.js",
     "runtime-main.js.map": "/Elite-IAMS/static/js/runtime-main.13889337.js.map",
     "static/css/2.43b2b750.chunk.css": "/Elite-IAMS/static/css/2.43b2b750.chunk.css",
@@ -10,14 +10,14 @@
     "static/js/2.aa4d9b1d.chunk.js.map": "/Elite-IAMS/static/js/2.aa4d9b1d.chunk.js.map",
     "index.html": "/Elite-IAMS/index.html",
     "static/css/2.43b2b750.chunk.css.map": "/Elite-IAMS/static/css/2.43b2b750.chunk.css.map",
-    "static/css/main.39867433.chunk.css.map": "/Elite-IAMS/static/css/main.39867433.chunk.css.map",
+    "static/css/main.42a88926.chunk.css.map": "/Elite-IAMS/static/css/main.42a88926.chunk.css.map",
     "static/js/2.aa4d9b1d.chunk.js.LICENSE.txt": "/Elite-IAMS/static/js/2.aa4d9b1d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.13889337.js",
     "static/css/2.43b2b750.chunk.css",
     "static/js/2.aa4d9b1d.chunk.js",
-    "static/css/main.39867433.chunk.css",
-    "static/js/main.ed0fd01c.chunk.js"
+    "static/css/main.42a88926.chunk.css",
+    "static/js/main.7a5b4b6b.chunk.js"
   ]
 }
