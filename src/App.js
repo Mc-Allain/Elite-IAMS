@@ -10,7 +10,7 @@ function App() {
   return (
     <Router>
       <Route
-      path="/"
+      path="/Index"
       render={props => (
         <Boot />
       )} />
