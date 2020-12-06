@@ -10,12 +10,12 @@ function App() {
   return (
     <Router>
       <Route
-      path="/Elite-IAMS"
+      path="/"
       render={props => (
         <Boot />
       )} />
       <Route
-      path="/Elite-IAMS/Member"
+      path="/Member"
       render={props => (
         <Member />
       )} />
