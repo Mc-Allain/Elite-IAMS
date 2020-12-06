@@ -1,5 +1,5 @@
-import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
-import React, { Component } from 'react';
+import { BrowserRouter as Router, Route} from 'react-router-dom';
+import React from 'react';
 
 import './App.css';
 
@@ -10,12 +10,12 @@ function App() {
   return (
     <Router>
       <Route
-      path="/Elite-IAMS"
+      path="/"
       render={props => (
         <Boot />
       )} />
       <Route
-      path="/Elite-IAMS-Member"
+      path="/Member"
       render={props => (
         <Member />
       )} />
