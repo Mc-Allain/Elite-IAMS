@@ -11,12 +11,12 @@ function App() {
     <Router>
       <Switch>
         <Route
-        exact path="/"
+        exact path="/Elite-IAMS"
         render={props => (
           <Boot />
         )} />
         <Route
-        exact path="/Member"
+        exact path="/Elite-IAMS/Member"
         render={props => (
           <Member />
         )} />

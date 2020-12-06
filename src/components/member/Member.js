@@ -31,7 +31,7 @@ class Member extends Component {
             {
                 id: 5,
                 text: "Sign out",
-                link: "/"
+                link: "/Elite-IAMS"
             },
         ]
     }
