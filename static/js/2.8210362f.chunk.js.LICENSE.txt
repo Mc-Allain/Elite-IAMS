@@ -22,6 +22,11 @@ object-assign
   */
 
 /*!
+ * Font Awesome Free 5.15.1 by @fontawesome - https://fontawesome.com
+ * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+ */
+
+/*!
  * jQuery JavaScript Library v3.5.1
  * https://jquery.com/
  *
@@ -48,6 +53,8 @@ object-assign
  *
  * Date: 2020-05-04T22:49Z
  */
+
+/*! https://mths.be/codepointat v0.2.0 by @mathias */
 
 /** @license React v0.20.1
  * scheduler.production.min.js
