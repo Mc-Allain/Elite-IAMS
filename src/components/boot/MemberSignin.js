@@ -11,7 +11,7 @@ class MemberSignin extends Component {
                         <p>Please input your credentials.</p>
                     </div>
 
-                    <form action="Member">
+                    <form action="Elite-IAMS/Member">
                         <div className="input-group">
                             <div className="input-group-prepend">
                                 <span className="input-group-text bg-primary text-light">ID Number</span>
