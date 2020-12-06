@@ -3,32 +3,46 @@ import React, { Component } from 'react';
 class Navbar extends Component {
     state = {  }
     render() { 
+        const { navs } = this.props;
+
         return (
             <React.Fragment>
                 <nav className="navbar navbar-expand-lg navbar-dark bg-dark text-primary fixed-top">
                     <a className="navbar-brand" href="#attendance">Elite IAMS</a>
-                    <button className="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+                    <button className="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#navbars" aria-controls="navbars" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
 
-                    <div className="collapse navbar-collapse" id="navbarsExample04">
+                    <div className="collapse navbar-collapse" id="navbars">
                         <ul className="navbar-nav ml-auto">
-                            <li className="nav-item d-lg-none">
-                                <a className="nav-link text-light" href="#attendance">Attendance</a>
-                            </li>
-                            <li className="nav-item d-lg-none">
-                                <a className="nav-link text-light" href="#sign-in">Sign in</a>
-                            </li>
-                            <li className="nav-item d-xl-none">
-                                <a className="nav-link text-light" href="#sign-up">Sign up</a>
-                            </li>
+                            {
+                                navs.map(nav =>
+                                    <li key={nav.id} className={this.getItemClasses(nav.text)}>
+                                        <a className={this.getLinkClasses(nav.text)}
+                                            href={nav.link}>{nav.text}</a>
+                                    </li>
+                                )
+                            }
                         </ul>
-                    </div>
-
-                   
+                    </div>       
                 </nav>
             </React.Fragment>
         );
+    }
+
+    getItemClasses = text => {
+        let classes = "nav-item ";
+        classes += text === "Sign up" ? "d-xl-none" :
+            text.startsWith("Profile") || text === "Sign out" || text === "Top" ? "" : "d-lg-none"
+        return classes;
+    }
+
+    getLinkClasses = text => {
+        let classes = "nav-link "
+        classes += text === "Sign out" ? "text-danger" :
+        text.startsWith("Profile") ? "text-info" :
+        text === "Top" ? "text-warning": "text-light"
+        return classes;
     }
 }
  

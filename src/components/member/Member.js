@@ -1,29 +1,38 @@
-import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import React, { Component } from 'react';
 
 import Navbar from '../Navbar.js';
 import Container from './Container.js';
 import Footer from '../Footer.js';
 
-class Boot extends Component {
+class Member extends Component {
     state = {
         navs:
         [
             {
                 id: 1,
+                text: "Top",
+                link: "#top"
+            },
+            {
+                id: 2,
                 text: "Attendance",
                 link: "#attendance"
             },
             {
-                id: 2,
-                text: "Sign in",
-                link: "#sign-in"
+                id: 3,
+                text: "News",
+                link: "#news"
             },
             {
-                id: 3,
-                text: "Sign up",
-                link: "#sign-up"
-            }
+                id: 4,
+                text: "Profile: Casindad, Mc Allain",
+                link: ""
+            },
+            {
+                id: 5,
+                text: "Sign out",
+                link: "Elite-IAMS"
+            },
         ]
     }
     render() { 
@@ -37,4 +46,4 @@ class Boot extends Component {
     }
 }
  
-export default Boot;
+export default Member;

@@ -18,7 +18,7 @@ class RightFormSignup extends Component {
                     <select className="form-control">
                         <option value="S">Single</option>
                         <option value="M">Married</option>
-                        <option value="W">Widower</option>
+                        <option value="W">Widower/Widowed</option>
                     </select>
                 </div>
                 <div className="input-group my-3">
@@ -35,7 +35,7 @@ class RightFormSignup extends Component {
                 </div>
                 <div className="input-group my-3">
                     <div className="input-group-prepend">
-                        <span className="input-group-text bg-primary text-light">Phone Number</span>
+                        <span className="input-group-text bg-primary text-light">Mobile Number</span>
                     </div>
                     <input type="tel" className="form-control" maxLength="11" />
                 </div>

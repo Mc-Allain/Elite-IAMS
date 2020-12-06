@@ -11,7 +11,7 @@ class MemberSignin extends Component {
                         <p>Please input your credentials.</p>
                     </div>
 
-                    <form>
+                    <form action="Elite-IAMS-Member">
                         <div className="input-group">
                             <div className="input-group-prepend">
                                 <span className="input-group-text bg-primary text-light">ID Number</span>
@@ -25,7 +25,10 @@ class MemberSignin extends Component {
                             <input type="password" className="form-control" maxLength="16" />
                         </div>
                         <div className="w-100 d-flex justify-content-center">
-                            <button type="submit" className="btn btn-outline-dark font-weight-bold w-90 mx-auto">Sign in</button>
+                            <button
+                            type="submit" className="btn btn-outline-dark font-weight-bold w-90 mx-auto">
+                                Sign in
+                            </button>
                         </div>
                     </form>
                 </div>
