@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route} from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import React from 'react';
 
 import './App.css';
@@ -9,16 +9,18 @@ import Member from './components/member/Member.js';
 function App() {
   return (
     <Router>
-      <Route
-      path="/Index"
-      render={props => (
-        <Boot />
-      )} />
-      <Route
-      path="/Member"
-      render={props => (
-        <Member />
-      )} />
+      <Switch>
+        <Route
+        exact path="/"
+        render={props => (
+          <Boot />
+        )} />
+        <Route
+        exact path="/Member"
+        render={props => (
+          <Member />
+        )} />
+      </Switch>
     </Router>
   );
 }
