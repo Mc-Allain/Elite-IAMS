@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import { HashRouter as Router, Route, Switch} from 'react-router-dom';
 import React from 'react';
 
 import './App.css';
@@ -11,12 +11,12 @@ function App() {
     <Router>
       <Switch>
         <Route
-        exact path="/Elite-IAMS"
+        exact path="/"
         render={props => (
           <Boot />
         )} />
         <Route
-        exact path="/Elite-IAMS/Member"
+        path="/Member"
         render={props => (
           <Member />
         )} />
